@@ -1,0 +1,24 @@
+.todo-detail {
+    background:#020102;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    height: 95vh;
+}
+
+.todo-detail__title {
+    font-size: 5rem;
+    margin: 3rem 0;
+}
+
+.todo-detail > a {
+    background-color: var(--color-link);
+    padding: 1.5rem 2rem;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}

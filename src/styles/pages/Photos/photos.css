@@ -1,0 +1,53 @@
+/* Estilos para el componente Photos */
+.photos {
+    background:#020102;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photos__title {
+    font-size: 5rem;
+    margin: 3rem 0;
+}
+
+.photos__list {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(200px, 1fr));
+    flex-direction: column;
+    grid-gap: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    max-width: 230px;
+}
+
+/* .photos__item {
+    background: linear-gradient(to bottom, #2C2C2C, #020102);
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    padding: 3rem;
+    border-radius: 15px;    
+} */
+
+
+.photos__item {
+    
+    background: linear-gradient(to bottom, #2C2C2C, #020102);
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    padding: 3rem;
+    border-radius: 15px;
+    height: 320px;  
+}
+
+a{
+    text-align: center;
+}

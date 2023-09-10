@@ -1,0 +1,39 @@
+.user-detail {
+    background: linear-gradient(to bottom, #2C2C2C, #020102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 95vh;
+}
+
+.user-detail__name {
+    font-size: 5rem;
+    margin: 3rem 0;
+}
+
+.user-detail__table {
+    width: 85vw;
+    border-collapse: collapse;
+    border: 1px solid #5f5f5f;
+    margin-top: 20px;
+}
+
+.user-detail__table th,
+.user-detail__table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.user-detail__table th {
+    background-color: #505050;
+    font-weight: bold;
+}
+
+.user-detail__table tr:nth-child(even) {
+    background-color: #666666;
+}
+
+.user-detail__table tr:hover {
+    background-color: #414141;
+}

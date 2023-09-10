@@ -1,0 +1,40 @@
+/* Estilos para el componente Posts */
+.posts__container {
+    background:#020102;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.posts__title {
+    font-size: 5rem;
+    margin: 3rem 0;
+}
+
+.posts__list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(auto, 1fr));
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    max-width: 820px;
+}
+
+.posts__item {
+    background: linear-gradient(to bottom, #2C2C2C, #020102);
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    text-align: center;
+}
+

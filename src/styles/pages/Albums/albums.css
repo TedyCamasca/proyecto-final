@@ -1,0 +1,37 @@
+/* Estilos para el componente Albums */
+.albums {
+    background:#020102;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.albums__title {
+    font-size: 5rem;
+    margin: 3rem 0;
+}
+
+.albums__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    max-width: 520px;
+}
+
+.albums__item {
+    background-color: var(--color-link);
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}

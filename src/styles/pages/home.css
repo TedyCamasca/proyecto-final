@@ -1,0 +1,78 @@
+/* Estilos para el componente Home */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Poppins';
+  background: linear-gradient(to bottom, #2C2C2C, #020102);
+  background-size: cover;
+  color: white;
+}
+
+.home {
+  /* background-color: var(--color-background); */
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-inline: 100px;
+}
+
+.home__title {
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+/* Nueva regla para contenedor de contenido */
+.home__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+/* Estilos para la sección de enlaces */
+.home__links {
+  display: flex;
+  flex-direction: row; /* Cambiamos la dirección de los enlaces a vertical */
+  gap: 2rem;
+  align-items: flex-start; /* Alineamos los enlaces a la izquierda */
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-right: 2rem; /* Añadimos un margen a la derecha para separar de la imagen */
+    margin-bottom: 2rem;
+}
+
+.home__links > a {
+  padding: 20px 40px;
+  background-color: #FFF212;
+  color: rgb(22, 22, 22);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.home__links > a:hover {
+  background-color: #d4ca0e;
+}
+
+/* Estilos para la imagen */
+/* .image-container { */
+  /* Estilos para la imagen, ajusta según sea necesario */
+/* } */
+
+span {
+  color: #FFF212;
+}

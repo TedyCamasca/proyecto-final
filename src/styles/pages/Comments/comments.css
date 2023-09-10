@@ -1,0 +1,37 @@
+/* Estilos para el componente Comments */
+.comments__container {
+    background:#020102;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comments__title {
+    font-size: 5rem;
+    margin: 3rem 0;
+}
+
+.comments__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    max-width: 520px;
+}
+
+.comments__item {
+    background: linear-gradient(to bottom, #2C2C2C, #020102);
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}

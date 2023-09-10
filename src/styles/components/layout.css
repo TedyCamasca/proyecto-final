@@ -1,0 +1,19 @@
+.header {
+    height: 5vh;
+    background-color: var(--color-header);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header > a {
+    font-weight: bold;
+    color: black;
+    padding: .8rem 2rem;
+    margin: 3rem;
+    background-color: #FFF212;
+    border-radius: 10px;
+}
+
+.header > a:hover{
+    background-color: #d4ca0e;
+}

@@ -1,0 +1,25 @@
+.album-detail {
+    background: linear-gradient(to bottom, #2C2C2C, #020102);
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.album-detail__title {
+    font-size: 5rem;
+    margin: 3rem 0;
+}
+
+.album-detail > a {
+    background-color: var(--color-link);
+    padding: 1.5rem 2rem;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
